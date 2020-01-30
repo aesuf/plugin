@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AES - Standalone Plugin", "AES_StandalonePlugin.vcxproj", "{EBD0D09E-2177-6D91-E7A7-88364596E60C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{086B86A7-F5D4-6434-039D-5A3B40D2FF79} = {086B86A7-F5D4-6434-039D-5A3B40D2FF79}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AES - VST3", "AES_VST3.vcxproj", "{87851C96-5F47-0832-ABCC-FFD534B288C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{086B86A7-F5D4-6434-039D-5A3B40D2FF79} = {086B86A7-F5D4-6434-039D-5A3B40D2FF79}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AES - Shared Code", "AES_SharedCode.vcxproj", "{086B86A7-F5D4-6434-039D-5A3B40D2FF79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87851C96-5F47-0832-ABCC-FFD534B288C0}.Debug|x64.ActiveCfg = Debug|x64
+		{87851C96-5F47-0832-ABCC-FFD534B288C0}.Debug|x64.Build.0 = Debug|x64
+		{87851C96-5F47-0832-ABCC-FFD534B288C0}.Release|x64.ActiveCfg = Release|x64
+		{87851C96-5F47-0832-ABCC-FFD534B288C0}.Release|x64.Build.0 = Release|x64
+		{EBD0D09E-2177-6D91-E7A7-88364596E60C}.Debug|x64.ActiveCfg = Debug|x64
+		{EBD0D09E-2177-6D91-E7A7-88364596E60C}.Debug|x64.Build.0 = Debug|x64
+		{EBD0D09E-2177-6D91-E7A7-88364596E60C}.Release|x64.ActiveCfg = Release|x64
+		{EBD0D09E-2177-6D91-E7A7-88364596E60C}.Release|x64.Build.0 = Release|x64
+		{086B86A7-F5D4-6434-039D-5A3B40D2FF79}.Debug|x64.ActiveCfg = Debug|x64
+		{086B86A7-F5D4-6434-039D-5A3B40D2FF79}.Debug|x64.Build.0 = Debug|x64
+		{086B86A7-F5D4-6434-039D-5A3B40D2FF79}.Release|x64.ActiveCfg = Release|x64
+		{086B86A7-F5D4-6434-039D-5A3B40D2FF79}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
